@@ -17,7 +17,7 @@ pipeline{
         stage('checkout git'){
             steps{
                  git branch: 'main',
-               url:'https://github.com/verman85/${Application_NAME}.git'
+               url:'https://github.com/verman85/your-repo.git'
             }
            
         }
